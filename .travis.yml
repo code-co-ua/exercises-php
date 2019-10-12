@@ -2,6 +2,7 @@ language: bash
 
 script:
     - make build-images
+    - make launch-instance exercise=hello-world
 
 services:
   - docker
