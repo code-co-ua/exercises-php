@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.com/code-co-ua/exercises-php.svg?branch=master)](https://travis-ci.com/code-co-ua/exercises-php)
+[![Telegram chat](https://img.shields.io/badge/chat-telegram-blue.svg)](https://t.me/codecoua)
+
 ## Build images
 
 We need images to run new instances.
