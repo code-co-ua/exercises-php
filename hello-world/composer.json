@@ -1,8 +1,10 @@
 {
   "autoload": {
-    "psr-4": {"": "src/"},
+    "psr-4": {
+        "App\\": "src/"
+    },
     "files": [
-      "src/Text.php"
+      "src/HelloWorld.php"
     ]
   },
   "config": {

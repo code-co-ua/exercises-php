@@ -2,7 +2,11 @@ language: bash
 
 script:
     - make build-images
-    - make launch-instance exercise=hello-world
+    # Create new instance
+    - id=$(make launch-instance exercise=hello-world)
+    - container_id=${id:0:12}
+    # Run code from instance
+    - docker exec $container_id php /usr/src/app/src/HelloWorld.php
 
 services:
   - docker
