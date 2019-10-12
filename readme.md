@@ -1,4 +1,4 @@
-# Build images
+## Build images
 
 We need images to run new instances.
 
@@ -17,3 +17,5 @@ It will return something like:
 ```
 436c5da49a7d00f8efcfcbeb8b97e518ce0afc12e33fed6eaa6f8b286c0b663b
 ```
+
+(docker container id)

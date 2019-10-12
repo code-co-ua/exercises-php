@@ -1,0 +1,7 @@
+language: bash
+
+script:
+    - make build-images
+
+services:
+  - docker
